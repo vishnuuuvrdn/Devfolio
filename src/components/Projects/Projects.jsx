@@ -1,6 +1,7 @@
 import "./Projects.css";
 import cinescopeImg from "../../assets/CineScope/img.png";
 import TranslatorImg from "../../assets/TranslatorIMG.png";
+import comin from "../../assets/coming-soon.jpg"
 
 const projectData = [
   {
@@ -12,10 +13,17 @@ const projectData = [
   },
   {
     id: 2,
+    title: "FormEZ",
+    image: comin,
+    github: "https://github.com/vishnuuuvrdn/FormEZ",
+    preview: "https://github.com/vishnuuuvrdn/FormEZ",
+  },
+  {
+    id: 3,
     title: "Telugu Translator Chrome Extension",
     image: TranslatorImg,
     github: "https://github.com/vishnuuuvrdn/Telugu-Translator-Extension",
-    preview: "#",
+    preview: "https://github.com/vishnuuuvrdn/Telugu-Translator-Extension",
   },
 ];
 
