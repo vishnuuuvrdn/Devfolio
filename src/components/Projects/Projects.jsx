@@ -9,7 +9,7 @@ const projectData = [
     title: "CineScope",
     image: cinescopeImg,
     github: "https://github.com/vishnuuuvrdn/MovieApp",
-    preview: "https://cinescope9.netlify.app",
+    preview: "https://cineboxd.vishnuuuvrdn.workers.dev",
   },
   {
     id: 2,
