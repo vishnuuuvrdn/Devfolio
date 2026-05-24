@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import myBigPic from "../../assets/me.jpeg";
-import myShortPic from "../../assets/me_mobile.jpeg";
+import Portrait from "../../assets/me.jpeg";
+import Landscape from "../../assets/me_mobile.jpeg";
 import "./About.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
@@ -46,7 +46,7 @@ export default function About() {
       <section className="about-hero">
         <div className="photo-wrapper">
           <img
-            src={isMobile ? myShortPic : myBigPic}
+            src={isMobile ? Landscape : Portrait}
             alt="Vishnu's Profile"
             className="profile-img"
           />
