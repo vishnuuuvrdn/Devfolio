@@ -8,7 +8,7 @@ export default function FormEZ(){
         const favicon = document.querySelector("link[rel=icon]");
         
         const OriginalFavIcon = favicon.href;
-        favicon.href = "../../public/document.png"
+        favicon.href = "/document.png"
 
         return () => {
           document.title = originalTitle;

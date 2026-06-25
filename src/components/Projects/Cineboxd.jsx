@@ -8,7 +8,7 @@ export default function Cineboxd(){
         const favicon = document.querySelector("link[rel=icon]");
         
         const OriginalFavIcon = favicon.href;
-        favicon.href = "../../public/popcorn.png"
+        favicon.href = "/popcorn.png"
 
         return () => {
           document.title = originalTitle;
