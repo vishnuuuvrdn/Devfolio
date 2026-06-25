@@ -69,7 +69,7 @@ export default function About() {
           </div>
 
           <p className="bio">
-            Third-Year Student in Cyber Security at Parul Institute of
+            Final-Year Student in Comupert Science at Parul Institute of
             Engineering and Technology. Passionate about web development(MERN
             stack). I create intuitive and aesthetic user experiences by
             combining design and development.

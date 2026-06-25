@@ -6,7 +6,9 @@ import Projects from "./components/Projects/Projects";
 import Contact from './components/Contact/Contact';
 import ResumeViewer from "./components/About/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Cineboxd from './components/Projects/Cineboxd';
+import FormEZ from './components/Projects/FormEZ';
+ 
 function MainPage() {
   return (
     <>
@@ -33,6 +35,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/Resume" element={<ResumeViewer />} />
+        <Route path="/Cineboxd" element={<Cineboxd />} />
+        <Route path="/FormEZ" element={<FormEZ />} />
       </Routes>
     </BrowserRouter>
   );

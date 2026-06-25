@@ -1,22 +1,23 @@
 import "./Projects.css";
-import cinescopeImg from "../../assets/CineScope/img.png";
+import cineboxdImg from "../../assets/cineboxd.png";
 import TranslatorImg from "../../assets/TranslatorIMG.png";
-import comin from "../../assets/coming-soon.jpg"
+import formez from "../../assets/formez.png";
+import { Route } from "react-router-dom";
 
 const projectData = [
   {
     id: 1,
-    title: "CineScope",
-    image: cinescopeImg,
+    title: "Cineboxd",
+    image: cineboxdImg,
     github: "https://github.com/vishnuuuvrdn/MovieApp",
-    preview: "https://cineboxd.vishnuuuvrdn.workers.dev",
+    preview: "/Cineboxd",
   },
   {
     id: 2,
     title: "FormEZ",
-    image: comin,
+    image: formez,
     github: "https://github.com/vishnuuuvrdn/FormEZ",
-    preview: "https://github.com/vishnuuuvrdn/FormEZ",
+    preview: "/FormEZ",
   },
   {
     id: 3,
@@ -48,7 +49,7 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                  <a href={project.preview} className="btn preview-btn">
+                  <a href={project.preview} className="btn preview-btn" target="_blank">
                     Preview
                   </a>
                 </div>
